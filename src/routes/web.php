@@ -24,6 +24,7 @@ Route::delete('/todos/delete', [TodoController::class, 'destroy']);
 
 Route::get('todos/search', [TodoController::class, 'search']);
 
+
 Route::get('/categories', [CategoryController::class, 'index']);
 
 Route::post('/categories', [CategoryController::class, 'store']);
